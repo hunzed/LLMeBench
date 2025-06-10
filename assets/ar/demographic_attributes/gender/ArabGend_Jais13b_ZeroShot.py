@@ -6,9 +6,8 @@ from llmebench.tasks import ClassificationTask
 def metadata():
     return {
         "author": "Arabic Language Technologies, QCRI, HBKU",
-        "model": "Jais-13b",
+        "model": "Jais-13b-chat",
         "description": "Locally hosted Jais-13b-chat model using FastChat.",
-        "scores": {"Macro-F1": "0.674"},
     }
 
 
