@@ -4,9 +4,9 @@ from llmebench.datasets.dataset_base import DatasetBase
 from llmebench.tasks import TaskType
 
 
-class MultiNativQADataset(DatasetBase):
+class NativQAGlobalDataset(DatasetBase):
     def __init__(self, **kwargs):
-        super(MultiNativQADataset, self).__init__(**kwargs)
+        super(NativQAGlobalDataset, self).__init__(**kwargs)
 
     @staticmethod
     def get_data_sample():
@@ -34,7 +34,6 @@ class MultiNativQADataset(DatasetBase):
                     "test": "washington/nativqa_test.tsv",
                 },
                 "default": [
-                    "washington/nativqa_test.tsv",
                 ],
             },
             "task_type": TaskType.Other,

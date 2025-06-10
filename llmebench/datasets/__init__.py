@@ -77,3 +77,4 @@ from .XGLUEPOS import XGLUEPOSDataset
 from .XLSum import XLSumDataset
 from .XNLI import XNLIDataset
 from .XQuAD import XQuADDataset
+from .NativQAGlobal import NativQAGlobalDataset
