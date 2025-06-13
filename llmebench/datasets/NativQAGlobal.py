@@ -29,7 +29,7 @@ class NativQAGlobalDataset(DatasetBase):
             "link": "",
             "license": "",
             "splits": {
-                # for us: washington, florida, michigan, texas, north_carolina, maschusetts, california, pensylvania, illinois, ohio, and hawaii, 
+                # for us: washington, florida, michigan, texas, north_carolina, maschusetts, california, pensylvania, illinois, ohio, hawaii, and georgia 
                 "washington": {
                     "dev": "washington/nativqa_dev.tsv",
                     "test": "washington/nativqa_test.tsv",
@@ -73,6 +73,10 @@ class NativQAGlobalDataset(DatasetBase):
                 "ohio": {
                     "dev": "ohio/nativqa_dev.tsv",
                     "test": "ohio/nativqa_test.tsv",
+                },
+                "georgia": {
+                    "dev": "georgia/nativqa_dev.tsv",
+                    "test": "georgia/nativqa_test.tsv",
                 },
                 
                 # for canada: ontario, and quebec
