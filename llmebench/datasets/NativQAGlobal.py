@@ -131,6 +131,24 @@ class NativQAGlobalDataset(DatasetBase):
                     "test": "Morocco_Rabat/nativqa_test.tsv",
                 },
 
+                # for syria
+                "syria": {
+                    "dev": "syria_sy/NativQA_sy_NA_sy_dev.tsv",
+                    "test": "syria_sy/NativQA_sy_NA_sy_test.tsv",
+                },
+
+                # for sudan
+                "sudan": {
+                    "dev": "sudan_su/NativQA_su_NA_su_dev.tsv",
+                    "test": "sudan_su/NativQA_su_NA_su_test.tsv",
+                },
+
+                # for yemen
+                "yemen": {
+                    "dev": "yameni_ya/NativQA_ya_NA_ya_dev.tsv",
+                    "test": "yameni_ya/NativQA_ya_NA_ya_test.tsv",
+                },
+
                 # for oman
                 "oman": {
                     "dev": "Oman_Muscat/nativqa_dev.tsv",
