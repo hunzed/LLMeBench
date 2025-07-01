@@ -27,8 +27,7 @@ def config():
 def prompt(input_sample):
     # Define the question prompt
     question_prompt = f"""
-        Please use your expertise to answer the following Arabic question. Answer in Arabic. Please provide Answer only. No additional text. Answer should be limited to less or equal to {input_sample['length']} words.
-
+        Please use your expertise to answer the following Arabic question. Answer in Arabic. Please provide Answer only. No additional text. 
         Question: {input_sample['question']}
 
         """
