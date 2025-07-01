@@ -29,7 +29,7 @@ class NativQAGlobalDataset(DatasetBase):
             "link": "",
             "license": "",
             "splits": {
-                # for us: washington, florida, michigan, texas, north_carolina, maschusetts, california, pensylvania, illinois, ohio, hawaii, and georgia 
+                # for us: washington, florida, michigan, texas, north_carolina, maschusetts, california, pensylvania, illinois, ohio, hawaii, georgia, and new_york.
                 "washington": {
                     "dev": "washington/nativqa_dev.tsv",
                     "test": "washington/nativqa_test.tsv",
@@ -78,6 +78,10 @@ class NativQAGlobalDataset(DatasetBase):
                     "dev": "georgia/nativqa_dev.tsv",
                     "test": "georgia/nativqa_test.tsv",
                 },
+                "new_york": {
+                    "dev": "english_ny/NativQA_ny_NA_ny_dev.tsv",
+                    "test": "english_ny/NativQA_ny_NA_ny_test.tsv",
+                },
                 
                 # for canada: ontario, and quebec
                 "ontario": {
@@ -89,11 +93,6 @@ class NativQAGlobalDataset(DatasetBase):
                     "test": "quebec/nativqa_test.tsv",
                 },
 
-                # for georgia
-                "georgia": {
-                    "dev": "georgia/nativqa_dev.tsv",
-                    "test": "georgia/nativqa_test.tsv",
-                },
 
                 # for iraq
                 "iraq": {
@@ -184,7 +183,19 @@ class NativQAGlobalDataset(DatasetBase):
                     "dev": "Bahrain_Manama/nativqa_dev.tsv",
                     "test": "Bahrain_Manama/nativqa_test.tsv",
                 },
+
+                # for tunisia
+                "tunisia": {
+                    "dev": "tunisia_tu/NativQA_tu_NA_tu_dev.tsv",
+                    "test": "tunisia_tu/NativQA_tu_NA_tu_test.tsv",
+                },
                 
+                # for palestine
+                "palestine": {
+                    "dev": "palestanian_ps/NativQA_ps_NA_ps_dev.tsv",
+                    "test": "palestanian_ps/NativQA_ps_NA_ps_test.tsv",
+                },
+
                 "default": [
                 ],
             },
